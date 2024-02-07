@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: #122139;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure full viewport height */
+            margin: 0;
+        }
+
+        img {
+            width: 620px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <img src="rose.gif" alt="Rose GIF">
+
+    <script>
+        // Function to redirect to another page after 10 seconds
+        setTimeout(function() {
+            window.location.href = "rose.html"; // Replace 'other-page.html' with the URL of the page you want to redirect to
+        }, 8000); // 10000 milliseconds = 10 seconds
+    </script>
+</body>
+</html>
